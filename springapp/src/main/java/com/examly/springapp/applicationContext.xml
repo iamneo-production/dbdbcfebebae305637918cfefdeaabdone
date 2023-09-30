@@ -4,6 +4,6 @@
 
 <beans>
 
-<bean id="student" class="Student.java" />
+<bean id="student" class="model/Student.java" />
 
 </beans>
