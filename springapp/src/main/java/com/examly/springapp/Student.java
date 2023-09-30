@@ -6,9 +6,13 @@ public class Student {
         this.firstName=firstName;
         this.lastName=lastName;
     }
-    void getData(){
-        System.out.println("Student id:"+stdentId);
-        System.out.println("First Name:"+firstName);
-        System.out.println("Last Name:"+lastName);
+    int getStudentId(){
+        return stdentId;
+    }
+    String getFirstName(){
+        return firstName;
+    }
+    String getLastName(){
+        return lastName;
     }
 }
