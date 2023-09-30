@@ -1,11 +1,7 @@
 public class Student {
     int stdentId;
     String firstName,lastName;
-    Student(int stdentId,String firstName,String lastName){
-        this.stdentId=stdentId;
-        this.firstName=firstName;
-        this.lastName=lastName;
-    }
+    void setStudentId()
     int getStudentId(){
         return stdentId;
     }
